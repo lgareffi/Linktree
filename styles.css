@@ -1,0 +1,151 @@
+
+h1 {
+    background-color: rgb(146, 201, 146);
+    font-family: 'Alegreya', serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h3{
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: 600;
+}
+blockquote{
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+h2{
+    font-family: 'Alegreya', serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+nav a{
+    text-decoration: none; 
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Poetsen One', sans-serif;
+}
+nav li{
+    display: inline; 
+    margin-right: 60px; 
+}
+
+nav{
+    background-color: rgb(146, 201, 146);
+    align-items: center; 
+    height: 50px;
+    line-height: 50px; 
+    display: flex; 
+    justify-content: center; 
+    padding: 0 20px; 
+    position: relative; 
+    text-transform: uppercase;
+}
+nav img{
+    position: absolute; 
+    left: 20px; 
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center; 
+    margin: 0;
+    background-color: rgb(188, 238, 188);
+    padding: 0;
+}
+
+.logoLG{
+    margin-bottom: 30px;
+}
+
+.sitiosWeb{
+    text-decoration: none;
+}
+
+.sitiosWeb img{
+    width: 70px;
+    margin-right: 20px; 
+    margin-bottom: 10px;
+}
+
+section{
+    background-color: rgb(146, 201, 146);
+}
+
+.miFoto{
+    margin-top: 10px;
+    width: 320px;
+}
+
+.tablaListas{
+    background-color: rgb(103, 100, 100);
+    margin: 20px auto; /* 20px arriba y abajo, auto a los costados */
+    border: 1;
+}
+
+.tablaListas td{
+    width: 400px;
+    font-weight: 600;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.tablaListas ul{
+    text-align: left; 
+    font-size: 20px;
+}
+
+.tablaListas tr{
+    background-color: rgb(215, 245, 214);    
+}
+
+.itemLista{
+    font-weight: 300;
+}
+
+.fotoPelis{
+    width: 90px;
+    height: 110px;
+}
+
+.fotoHobbies{
+    width: 120px;
+    height: 110px;
+    margin-top: 20px;
+}
+
+.contenedorAcademico {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagenesAcademico {
+    display: flex;
+    margin: 20px auto; 
+}
+
+.fotoAcademico {
+    width: 100px;
+    height: auto;
+    margin-right: 10px
+}
+
+footer{
+    background-color: rgb(146, 201, 146);
+    height: 20px;
+    font-size: 15px;
+}
+

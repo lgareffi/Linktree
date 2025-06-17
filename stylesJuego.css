@@ -1,0 +1,106 @@
+body{
+    text-align: center; 
+    margin: 0;
+    background-color: rgb(188, 238, 188);
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none; 
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Poetsen One', sans-serif;
+}
+nav li{
+    display: inline; 
+    margin-right: 60px; 
+}
+
+nav{
+    background-color: rgb(146, 201, 146);
+    align-items: center; 
+    height: 50px;
+    line-height: 50px; 
+    display: flex; 
+    justify-content: center; 
+    position: relative;
+    text-transform: uppercase;
+}
+nav img{
+    position: absolute; 
+    left: 20px; 
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logoLG{
+    margin-bottom: 30px;
+}
+
+
+.contenedorJuego{
+    margin-top: 60px;
+}
+
+.contenedorRTA{
+    margin-top: 40px;
+}
+
+h2{
+    font-family: 'Poetsen One', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: rgb(146, 201, 146);
+    height: 50px;
+    line-height: 50px;
+    margin-top: 0;
+}
+
+h2 a{
+    text-decoration: none; 
+    color: black;
+    font-size: 20px;
+}
+
+span{
+    color: blue;
+}
+
+h1{
+    font-family: 'Poetsen One', sans-serif; 
+    font-weight: 400; 
+    font-size: 40px;
+}
+
+h3{
+    font-family: 'Poetsen One', sans-serif; 
+    font-weight: 400; 
+    margin-top: 30px;
+}
+
+table{
+    border: 1; 
+    margin: 40px auto;
+}
+
+footer{
+    background-color: rgb(146, 201, 146);
+    height: 20px;
+    font-size: 15px;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+}
+
+footer p{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin: 0;
+}
