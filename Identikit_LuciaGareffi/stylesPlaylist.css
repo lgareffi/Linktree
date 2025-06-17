@@ -1,0 +1,134 @@
+body{
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    background-color: rgb(188, 238, 188);
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Poetsen One', sans-serif;
+}
+nav li{
+    display: inline; 
+    margin-right: 60px; 
+}
+
+nav{
+    background-color: rgb(146, 201, 146);
+    align-items: center; 
+    height: 50px;
+    line-height: 50px; 
+    display: flex; 
+    justify-content: center; 
+    padding: 0 20px; 
+    position: relative; 
+    text-transform: uppercase;
+}
+nav img{
+    position: absolute; 
+    left: 20px; 
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logoLG{
+    margin-bottom: 30px;
+}
+
+main{
+    text-align: left;
+    margin-top: 40px;
+}
+
+ol{
+    margin-top: 100px;
+}
+
+ol a{
+    text-decoration: none;
+    font-family: 'Poetsen One', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 20px;
+}
+
+main{
+    margin-top: 72px;
+}
+
+.mainPlaylist{
+    margin-top: 20px;
+}
+
+aside{
+    background-color: rgb(115, 163, 115);
+    display: inline-block;
+    width: 20%;
+    height: 400px;
+    vertical-align: top;
+}
+
+.claseContenido{
+    background-color: rgb(53, 122, 53);
+    display: inline-block;
+    width: 80%;
+    height: 400px;
+    text-align: center;
+}
+
+.gifWrapped{
+    margin-right: 50px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+h1{
+    font-family: 'Poetsen One', sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+    color: rgb(124, 189, 222);
+}
+
+h2{
+    font-family: 'Poetsen One', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(124, 189, 222);
+}
+
+video{
+    width: 600px;
+}
+
+h3{
+    font-family: 'Poetsen One', sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+footer{
+    background-color: rgb(146, 201, 146);
+    height: 20px;
+    font-size: 15px;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+}
+
+footer p{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin: 0;
+}
