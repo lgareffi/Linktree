@@ -1,120 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Blog Personal</title>
-    <link rel="icon" href="icono/corazon.png" type="image/x-icon"> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucía Gareffi - Proyectos</title>
+  <link rel="icon" href="icono/corazon.png" type="image/x-icon" />
 
-    <style>
+  <link rel="stylesheet" href="styles.css">
 
-        /* body{
-            background-image: url("Imagenes/fondo.jpg");
-            background-size: cover;
-        } */
-
-        header{
-             text-align: center;
-        }
-
-        .mifoto{
-            width: 200px;
-            border-radius: 100px;
-        }
-
-        header ul li{
-            display: inline;
-        }
-
-        header a img{
-            width: 100px;
-            margin-right: 20px;
-        }
-
-        nav{
-            text-align: center;
-        }
-
-        ul{
-            list-style: none;
-        }
-
-        nav li{
-            margin-bottom: 30px;
-        }
-
-        nav a{
-            padding: 10px 100px; /* 10px es arriba y abajo | 100px es izquierda y derecha*/
-            background-color: rgb(198, 165, 230);
-            border-radius: 20px;
-        }
-
-        /* div{
-            text-align: center;
-        } */
-
-        .prueba{
-            background-color: rgb(214, 130, 202);
-            text-align: center;
-            width: 200px;
-            margin: 0 auto;
-        }
-
-        /* .test{
-            background-color: red;
-            transform: translateX(50%);
-        } */
-
-        .video-fondo{
-            position: fixed; /* o absolute*/
-            width: 100vw;
-            height: 100vh;
-            object-fit: cover;
-            top: 0;
-            left: 0;
-            z-index: -1; /* se pone una capa para atras*/
-        }
-
-
-    </style>
 </head>
 <body>
 
-    <header>
-        <img class="mifoto" src="imagenes/Foto.jpeg" alt="Mi foto">
-        <h1>Lucía Gareffi</h1>
-        <h2>Estudiante de Ingeniería en informática</h2>
-        <ul class="redes">
-            <li><a href=""><img class="fotoLi" src="imagenes/Foto.jpeg" alt=""></a></li>
-            <li><a href=""><img class="fotoLi" src="imagenes/Foto.jpeg" alt=""></a></li>
-            <li><a href=""><img class="fotoLi" src="imagenes/Foto.jpeg" alt=""></a></li>
-        </ul>
-    </header>
+  <header>
+    <img class="mifoto" src="imagenes/Foto.jpeg" alt="Mi foto">
+    <h1>Lucía Gareffi</h1>
+    <h2>Estudiante de Ingeniería en Informática</h2>
+  </header>
 
-    <nav>
-        <ul>
+  <nav>
+    <ul>
+      <li><a href="Identikit_LuciaGareffi/index.html">Proyecto Identikit</a></li>
+      <li><a href="index.html">Blog Personal</a></li>
+    </ul>
+  </nav>
 
-            <li><a href="Identikit_LuciaGareffi/index.html"> Identikit </a></li>
-            <li><a href="">Link 2</a></li>
-            <li><a href="">Link 3</a></li>  
-        </ul>
-    </nav>
-
-    <!-- <div>
-        <button><a href="#">Link 1</a></button>
-        <button><a href="#">Link 2</a></button>
-        <button><a href="#">Link 3</a></button>
-    </div> -->
-
-    <div class="prueba">
-        <p>Prueba</p>
-    </div>
-
-    <!-- <div class="test">.</div> -->
-
-    <video id="video-fondo" autoplay loop muted>
-        <source src="" type="video/mp4">
-    </video>
-    
 </body>
 </html>
