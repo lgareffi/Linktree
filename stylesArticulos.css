@@ -1,0 +1,142 @@
+
+
+:root {
+  --color1: #faefc2;
+  --color2: #a4ac9d;
+  --color3: #a27879;
+  --color4: #a4626c;
+  --color5: #f05d77;
+}
+
+  body {
+    font-family: sans-serif;
+    background-color: var(--color1);
+    margin: 0;
+  }
+
+  nav {
+    background-color: var(--color4);
+    padding: 1rem 0;
+  }
+
+  nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      flex-wrap: wrap;
+  }
+
+  nav li {
+      margin: 0 10px;
+      color: white;
+  }
+
+  nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+  }
+
+  main {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  section {
+    flex: 3;
+    background-color: var(--color2);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .fotoSalas{
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+  }
+
+  section img {
+    width: 50%;
+    height: auto;
+  }
+
+  aside {
+    flex: 1;
+    background-color: var(--color3);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  aside ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+
+  footer {
+    background-color: var(--color4);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  .salaDestacada {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+
+  .salaDestacada img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+  }
+
+  .salaDestacada p {
+    flex: 1;
+  }
+
+    .MundosSplitFiction {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+
+  .MundosSplitFiction img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .MundosSplitFiction p {
+    flex: 1;
+    font-weight: 600;
+  }
+
+  .imagenesPeliculas img{
+    width: 150px;
+    height: 170px;
+    margin-right: 120px;
+  }
+
+
+  @media (max-width: 600px) {
+    main {
+      flex-direction: column;
+    }
+
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    nav li {
+      margin: 5px 0;
+    }
+  }
