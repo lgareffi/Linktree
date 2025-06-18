@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulario de suscripción</title>
+  <link rel="icon" href="icono/corazon.png" type="image/x-icon" />
+
+  <link rel="stylesheet" href="stylesFormulario.css">
+
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li>|</li>
+      <li><a href="publicaciones.html">Publicaciones</a></li>
+      <li>|</li>
+      <li><a href="formulario.html">Contacto</a></li>
+      <li>|</li>
+      <li><a href="/Linktree/index.html">LinkTree</a></li>
+      <!-- <li><a href="../index.html">LinkTree</a></li> para usar con live server -->
+    </ul>
+  </nav>
+
+  <main>
+    <form action="">
+      <h2>Formulario de suscripción</h2>
+
+      <label for="nombre">Nombre:</label>
+      <input id="nombre" type="text" required />
+
+      <label for="mail">Correo electrónico:</label>
+      <input id="mail" type="email" required />
+
+      <label for="edad">Edad:</label>
+      <input id="edad" type="number" required />
+
+      <label for="comentario">Comentario:</label>
+      <textarea id="comentario" rows="4" placeholder="Dejanos tu mensaje..."></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+</body>
+</html>
