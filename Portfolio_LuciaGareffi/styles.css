@@ -246,7 +246,7 @@ section.sobreMi{
 }
 
 .formulario-contacto {
-  border: 1px solid #e2e8f0;
+  border: 2px solid #909090;
   border-radius: 16px;
   padding: 3rem;
   max-width: 600px;    
@@ -271,7 +271,7 @@ section.sobreMi{
 .campo-select {
   width: 100%;
   padding: 1rem;
-  border: 1px solid #d1d5db;
+  border: 2px solid #909090;
   border-radius: 8px;
   font-size: 1rem;
   transition: all 0.2s ease;
