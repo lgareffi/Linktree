@@ -23,7 +23,7 @@ function sendMail() {
             const modal = document.getElementById('myModal');
             modal.style.display = 'flex';
 
-            // Limpiar formulario si querés
+            // Limpiar formulario 
             document.getElementById("nombre").value = '';
             document.getElementById("email").value = '';
             document.getElementById("mensaje").value = '';
@@ -34,7 +34,7 @@ function sendMail() {
         });
 }
 
-// Cerrar el modal cuando se hace click en "Cerrar"
+// Cerrar el modal 
 document.getElementById('closeModal').addEventListener('click', function () {
     document.getElementById('myModal').style.display = 'none';
 });

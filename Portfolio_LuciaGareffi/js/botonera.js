@@ -20,7 +20,7 @@
         const audio = audios[i];
 
         if (!audio.paused) {
-          // Si el audio está sonando, lo pausamos y lo reiniciamos
+          // Si el audio está sonando, se pausa y se reinicia
           audio.pause();
           audio.currentTime = 0;
         } else {
