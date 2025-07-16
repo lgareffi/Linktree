@@ -57,6 +57,10 @@ header {
     margin-bottom: 25px;
 }
 
+.linkIconos{
+    text-decoration: none;
+}
+
 .icono{
     width: 55px;
     height: auto;
